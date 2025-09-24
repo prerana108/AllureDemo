@@ -24,4 +24,12 @@ public class AppTest {
         int diff = a - b;
         assertEquals(diff, 15, "sub should be 15");
 }
+    @Test
+    @Description("Simple test to check Multiplication")
+    public void testmulti() {
+        int a = 5;
+        int b = 10;
+        int multiplied = a * b;
+        assertEquals(multiplied, 50, "Sum should be 50");
+    }
 }
