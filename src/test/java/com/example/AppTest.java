@@ -32,4 +32,12 @@ public class AppTest {
         int multiplied = a * b;
         assertEquals(multiplied, 50, "Sum should be 50");
     }
+     @Test
+    @Description("Simple test to check divide")
+    public void testdivide() {
+        int a = 10;
+        int b = 2;
+        int divide = a / b;
+        assertEquals(divide, 5, "Sum should be 5");
+    }
 }
